@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;500&family=Poppins:wght@100;300;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="toolbar">
+      <ul>
+        <li><img src="icons/toolbar/facebook.png" alt="facebook-ribbon-icon"></li>
+        <li><img src="icons/toolbar/twitter-sign.png" alt="twitter-ribbon-icon"></li>
+        <li><select name="language" id="language">
+          <option value="english">English</option>
+          <option value="swahili">Kiswahili</option>
+        </select></li>
+        <li>My Page</li>
+        <li>Login</li>
+      </ul>
+    </div>
+
+    <nav class="navbar">
+      <a href="#"><img class="logo" src="icons/MotoImg/MotoGP-2007-Logo-White-png.vector69.com.png" alt="MotoGP"></a>
+      <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#drivers" class="nav-link">Riders and Teams</a></li>
+          <li class="nav-item"><a href="#races.html" class="nav-link">Races</a></li>
+      </ul>
+      <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+
+      <!-- <ul class="desktop-nav">
+          <li><a href="index.html" class="page-links">Home</a></li>
+          <li><a href="about.html" class="page-links">About</a></li>
+          <li><a href="#drivers" class="page-links">Our Riders</a></li>
+          <li><a href="#race-days" class="page-links">Races</a></li>
+          <li><a href="#https://www.formula1.com/en/latest.html" class="page-links">News</a></li>
+          <li><a href="#https://www.formula1.com/en/latest/tags.race-calendar.2Sa4DEdBSUMcOqa8aYceEe.html" class="page-links campaign" id="campaign">F1 Campaign</a></li>
+      </ul> -->
+    </nav>
+  </header>
+  <main>
+    <section id="moto-home">
+      <div class="img-area"></div>
+      <div class="intro">
+        <h3><img src="icons/MotoImg/Flag_of_the_United_Kingdom_(1-2).svg.png" alt="">Monster Energy British grand Prix</h3>
+        <h1>MotoGP Rider Fan Parade</h1>
+        <h2>
+          #BritishGP
+          <span>LIVE:Don't miss any of the Sunday's action at the British GP!</span>
+        </h2>
+        <button>WATCH NOW</button>
+        <h2 class="date">2023.8.6(Sun)</h2>
+        <h4>@MotoGP, British Grand Prix.</h4>
+      </div>
+    </section>
+  <!-- main program -->
+    <section id="program">
+      <h2>Main Events</h2>
+      <hr>
+        <article id="exhibition">
+          <img src="icons/MotoImg/superbike.png" alt="Superbike icon">
+          <h3>Exhibition</h3>
+          <p>Watch as our top riders take on the track for a warm up ...</p>
+        </article>
+  
+        <article id="trackmeet">
+          <img src="icons/MotoImg/race-track.png" alt="track icon">
+          <h3>Trackmeet</h3>
+          <p>Stand a chance to win a lap around the track and be part of your team's pit crew ...</p>
+        </article>
+  
+        <article id="autographs">
+          <img src="icons/MotoImg/images.png" alt="helmet icon">
+          <h3>Autograph</h3>
+          <p>Get your favorite reacer's signatures. Also meet legends of the track, like Valentino Rossi ...</p>
+        </article>
+  
+        <article id="technical">
+          <img src="icons/MotoImg/customer-service.png" alt="support icon">
+          <h3>Technical</h3>
+          <p>A sneak peak into the teams' operations and Meet the team prinicpals of the top teams ...</p>
+        </article>
+  
+        <article id="champion">
+            <img src="icons/MotoImg/trophy.png" alt="trophy-icon">
+            <h3>Champions</h3>
+            <p>The F1 trophy will be on display along with some legends and get your own special replica ...</span></p>
+        </article>
+        <button class="tickets">BUY TICKETS NOW</button>
+    </section>
+  <!-- featured speakers -->
+    <section id="drivers">
+      <h2>Our Racers</h2>
+      <hr>
+      <div id="cards-container"></div>
+      
+    </section>
+    <button id="more" type="button">MORE<img src="icons/down-arrow.png" alt=""></button>
+  
+    <!-- partners -->
+
+    <section id="sponsors" class="hidden">
+      <h2>Official Sponsors</h2>
+      <hr>
+      <ul class="sponsor-list">
+        <li><a href="https://www.tissotwatches.com/en-us/">Tissot</a></li>
+        <li><a href="https://www.michelinmotorsport.com/en/motorsport/">Michelin</a></li>
+        <li><a href="https://estrellagalicia00.es/">Estrella Galicia</a></li>
+        <li><a href="https://www.dhl.com/global-en/home.html">DHL</a></li>
+      </ul>
+    </section>
+  </main>
+  <!-- signature -->
+  <footer class="hidden">
+      <img class="logo" src="icons/MotoImg/Fédération_Internationale_de_Motocyclisme_logo.svg.png" alt="" class="footer-desktop-img">
+      <div>
+        <p>@2023 Dorna Sports SL <br> All rights reserved <br> All trademarks are the property of their respective owners.</p>
+        <p class="privacy-policy hidden">For details about how we use your information, please see our <a href="#">Privacy Policy</a></p>
+        <p class="cookies-terms hidden"><a href="#">Terms & Conditions</a> | <a href="#">Cookies</a></p>
+        </div>
+  </footer>
+  <script src="./JS/menu-btn.js"></script>
+  <script src="./JS/script.js"></script>
+  <script src="./JS/index.js"></script>
+</body>
+</html>
