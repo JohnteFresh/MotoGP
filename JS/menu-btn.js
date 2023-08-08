@@ -1,6 +1,6 @@
-const restOfMobile = document.querySelectorAll('footer, #sponsors, #drivers article:not(#driver[0], #driver[1])');
+const restOfMobile = document.querySelectorAll('footer, section, #drivers article:not(#driver0, #driver1)');
 const moreBtn = document.querySelector('#more');
-moreBtn.addEventListener("click", () => {
+moreBtn.addEventListener('click', () => {
   restOfMobile.forEach((element) => {
     element.classList.remove('hidden');
   });
